@@ -1,6 +1,6 @@
-let lampadina = document.getElementById("lampadina")
-let button = document.getElementById("buttonAccensione")
+let lampadina = document.getElementById('lampadina')
+let button = document.getElementById('buttonAccensione')
 
-button.addEventListener ("click", function(){
+button.addEventListener ( 'click' , function() {
     lampadina.src = "./img/yellow_lamp.png"
 })
